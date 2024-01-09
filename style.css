@@ -1,0 +1,281 @@
+
+/* COLORS */
+.f-col{
+    color: #ececec;
+  }
+
+  .s-col{
+   color:  #C67F7F;
+  }
+
+  .t-col{
+   color: darkred; 
+  }
+/* FONT */
+.f-f{
+    font-family: 'Rajdhani';
+}
+ .f-s{
+ font-family: 'Nova Square' ;   
+ }
+
+
+/* NAVBAR */
+
+/* nav{
+    border: 1px solid col
+} */
+
+@media screen and (max-width: 1306px){
+    nav{
+        height: 10px;
+        position: fixed;
+        top: 0%;
+        width: 100%;
+    }
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    font-family: Nova, Square, Rajdhani;   
+}
+
+.img-nav{
+    height: 70px;
+    width: 120px;
+}
+
+
+
+ul{
+    list-style: none;
+}
+
+
+
+
+/* HEADER */
+
+.header-custom{
+    
+    height: calc(100vh - 95px);
+    
+    background-image: linear-gradient(0deg, rgba(231,231,231,0) 0%, rgba(255,255,255,1) 83%), url(./media/switzerland-862870_1920.jpg)  ;
+    background-position-x: 100%;
+    background-position-y: 40%;
+    background-size: cover;
+    
+}
+
+@media screen and (max-width:1306px){
+    .header-custom{
+        background-image: linear-gradient(0deg, rgba(231,231,231,0) 0%, rgba(255,255,255,1) 83%), url(./media/switzerland-862870_1920.jpg)  ;
+        background-position: 100%;
+        background-size: cover;
+    }
+}
+    
+
+h1{
+    font-family: 'Nova Flat', cursive;
+    letter-spacing: 50px;
+    Color: darkred;
+    font-size:50px;
+    text-align: center;
+    padding-top: 20%; 
+}
+
+@media screen and (max-width: 1306px) {
+    h1{
+        text-align: center;
+        width: 0,5px;
+    }
+}
+
+/* MAIN */
+main{
+    background-color: #ececec;
+}
+
+
+.img-mont2{
+    
+    width: 100%;
+    position: absolute;
+    display: flex;
+    height: 400px;
+    top: 410px;
+
+}
+
+
+
+.virgolette::before{
+    content: '"' ;
+    font-size: 50px;
+    color: darkred; 
+    position: absolute;
+    top: -20px;
+    left: 20px;
+    font-family: Rajdhani;
+
+}
+
+.virgolette::after{
+    content: '"' ;
+    font-size: 50px;
+    color: darkred; 
+    position: absolute;
+    top: 40px;
+    right: 15px;
+    font-family: Rajdhani
+}
+
+.fiocco{
+    font-size: 30px ;
+}
+.par{
+    font-size: 12px;
+}
+
+
+.timeline{
+    border-bottom: 3px  solid darkred ; 
+    position: relative;
+    width: 160px;  
+}
+
+.pallino::before{
+    content: '';
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    border: 2px solid darkred;
+    background-color: white;
+    position: relative;
+    bottom: -7px;
+    right: 75px;
+    position: absolute;  
+}
+
+
+h2{
+    font-weight: 550;
+    font-family: 'Nova Flat'
+}
+
+.sec-p{
+    margin-top: 10%;
+    height: 480px;
+    background-image: url(./media/trees2.png);
+    background-size: 100% ;
+    /* background-position-x: %; */ 
+     background-position-y : 70px ;
+    background-repeat: no-repeat;
+}
+
+
+.btn{
+    border: 2px solid darkred;
+    background-color: darkred;
+    color: white;
+    width: 150px;
+    height: 40px;
+    
+}
+
+/* SECTION TIMELINE */
+.time-sec{
+    background-color: white;   
+}
+
+.timeline2{
+    border-left: 3px solid darkred;
+}
+
+.pallino2::before{
+    content: '' ;
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    border: 2px solid darkred;
+    background-color: white;
+    position:absolute;
+    left: -9px;
+}
+
+h3{
+    font-weight: 400;
+    font-size: x-large;
+    font-family: 'Nova Flat';
+}
+
+.div-cont{
+    width: 610px;
+}
+
+.img-cont{
+    position: absolute;
+    left: 300px;
+    top: 127px;
+    width: 600px;
+}
+
+
+
+/* SECTION CIRCLES */
+.section-circle{
+    background-color: #ececec;
+}
+
+.h2-circle{
+    padding-top: 150px;
+}
+
+.img-circle{
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    border: 3px solid darkred;
+    padding: 8px;
+    
+}
+
+.img-circle2{
+    border-radius: 50%;
+    width: 250px;
+    height: 250px;
+    border: 3px solid darkred;
+    padding: 8px;
+}
+
+.div-circle2{
+    margin-top: 100px;
+}
+
+/* FOOTER */
+
+.img-footer{
+    width: 100%;  
+}
+
+footer{
+    background-color: darkred;  
+}
+
+.h2-footer{
+    padding-top: 150px;
+}
+
+ /* .link-footer{
+     top: 100px; 
+ }  */
+
+/* .div-footer{
+    width: ;
+}
+
+.rowcircle3{
+    width: 100%;
+} */
